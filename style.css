@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(141, 91, 55);
+}
+
+.game-container {
+    text-align: center;
+}
+
+#game-board {
+    width: 400px;
+    height: 400px;
+    border: 2px solid #000;
+    margin: 20px auto;
+    position: relative;
+    background-color: #48ff42;
+}
+
+.snake {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: green;
+}
+
+.apple {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+#game-over {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
